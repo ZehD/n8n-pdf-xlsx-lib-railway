@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.59.3
+FROM n8nio/n8n:latest
 
 USER root
 RUN npm install -g xlsx pdf-lib
